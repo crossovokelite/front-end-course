@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Lato-Medium;
+    src: url("../styles/Lato-Medium.ttf");
+}
+
 body {
     margin: 0;
 }
@@ -108,23 +113,18 @@ body {
 
 .href-info {
     font-size:20px;
-    font-family: CenturyGothic;
+    font-family: Lato-Medium;
 }
 
 .href-style {
     text-decoration:none;
     color:black;
-    font-family: CenturyGothic;
-}
-
-@font-face {
     font-family: Lato-Medium;
-    src: url("../fonts/Lato-Medium.ttf");
 }
 
 .description, .date {   
     font-size: 17px;
     letter-spacing: 0px;
     color: #c9c9c9;
-    font-family: CenturyGothic;
+    font-family: Lato-Medium;
 }
